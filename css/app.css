@@ -1,0 +1,26 @@
+body {
+	background-color: #f3f3f3;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#adminButCon {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#adminBut {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12pt;
+	text-decoration: none;
+	color: #303030;
+	background-color: #f4f4f4;
+	border: 2px solid #f3f3f3;
+	padding: 5px 10px;
+}
+
+#adminBut:hover {
+	background-color: #ffffff;
+}

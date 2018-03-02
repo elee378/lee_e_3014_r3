@@ -1,0 +1,125 @@
+/*-----General-----*/
+body {
+	background-color: #f3f3f3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 500;
+	text-align: center;
+	color: #303030;
+}
+
+p, li, a {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 10pt;
+	color: #303030;
+}
+
+.hidden {
+	display: none;
+}
+
+#logo {
+	width: 70vw;
+	max-width: 400px;
+	display: block;
+	margin: 20vh auto 50px auto;
+}
+
+.userPass {
+	display: block;
+	margin: 0 auto 10px auto;
+	background-color: #232323;
+	color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+	border: none;
+	height: 30px;
+	width: 200px;
+	padding: 10px;
+	font-size: 10pt;
+}
+
+.userPass:focus {
+	box-shadow: none;
+	border: none;
+	background-color: #303030;
+}
+
+.userPass::-webkit-input-placeholder {
+	font-family: 'Ubuntu', sans-serif;
+	color: #fff;
+	font-size: 10pt;
+}
+
+.userPass:-ms-input-placeholder {
+	font-family: 'Ubuntu', sans-serif;
+	color: #fff;
+	font-size: 10pt;
+}
+
+.userPass:-moz-placeholder {
+	font-family: 'Ubuntu', sans-serif;
+	color: #fff;
+	font-size: 10pt;
+}
+
+.userPass::-moz-placeholder {
+	font-family: 'Ubuntu', sans-serif;
+	color: #fff;
+	font-size: 10pt;
+}
+
+#submit {
+	display: block;
+	margin: 10px auto 0 auto;
+	cursor: pointer;
+}
+
+.errorTxt {
+	text-align: center;
+}
+
+#adminButCon {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.buttonCon {
+	margin: 30px;
+}
+
+.button {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12pt;
+	text-decoration: none;
+	color: #303030;
+	background-color: #f4f4f4;
+	border: 2px solid #f3f3f3;
+	padding: 5px 10px;
+}
+
+.button:hover{
+	background-color: #ffffff;
+}
+
+#lastLogin {
+	position: fixed;
+	bottom: 0px;
+	right: 10px;
+}
+
+#lvlList {
+	display: block;
+	margin: 0 auto;
+}
+
+.backBut {
+	position: fixed;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+}
